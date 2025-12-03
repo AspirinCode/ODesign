@@ -1,0 +1,18 @@
+[
+  {
+    "name": "lig_binding_prot_demo",
+    "ref_file": "./examples/protein_design/lig_binding_prot/7bkc_FAD.cif",
+    "chains":[
+        {
+            "chain_type": "ligand",
+            "sequence": "E/505-505"
+        },
+        {
+            "chain_type": "proteinChain",
+            "sequence": "411-411"
+        }
+    ],
+    "hotspot": "E/505",
+    "center_method": "hotspot_center"
+  }
+]

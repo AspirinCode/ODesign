@@ -1,0 +1,33 @@
+[
+  {
+    "name": "atom_scaffold_demo",
+    "ref_file": "./examples/protein_design/atom_scaffold/M0129_1os7.pdb",
+    "chains": [
+    {
+        "chain_type": "proteinChain",
+        "sequence": "1-70,A/1-1,1-70,B/1-1,1-70,C/1-1,1-70,D/1-1,1-180",
+        "length": 180
+    },
+    {
+        "chain_type": "ligand",
+        "sequence": "Z/1-1"
+    },
+    {
+        "chain_type": "ligand",
+        "sequence": "Z/2-2"
+    },
+    {
+        "chain_type": "ligand",
+        "sequence": "Z/3-3"
+    }
+    ],
+    "condition_atom": {
+    "A/1": ["NE2","CD2","CE1"],
+    "B/1": ["OD1","CG","CB","OD2"],
+    "C/1": ["NE2","CD2","CE1","CG","ND1"],
+    "D/1": ["NH1","CZ"]
+    },
+    "hotspot": "A/1,B/1,C/1,D/1,Z/1,Z/2,Z/3",
+    "center_method": "hotspot_center"
+  }
+]

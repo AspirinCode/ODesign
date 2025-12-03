@@ -1,0 +1,12 @@
+[
+  {
+    "name": "rna_bb_demo",
+    "ref_file": "",
+    "chains": [
+      {
+        "chain_type": "rnaChain",
+        "sequence": "50-50"
+      }
+    ]
+  }
+]

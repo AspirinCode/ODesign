@@ -1,0 +1,14 @@
+[
+  {
+    "name": "motif_scaffold_demo",
+    "ref_file": "./examples/protein_design/motif_scaffold/30_7UWL.pdb",
+    "motif_scaffolding": true,
+    "chains": [
+    {
+        "chain_type": "proteinChain",
+        "sequence": "1-80,A/1-11,25-35,B/1-11,15-25,C/1-11,20-30,D/1-10,1-80",
+        "length": 175
+    }
+    ]
+  }
+]
